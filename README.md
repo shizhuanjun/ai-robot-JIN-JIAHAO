@@ -7,5 +7,5 @@
 - 日期: 2026-03-17
 
 ## 环境信息
-- 操作系统: Windows 11 + vmware
+- 操作系统: Windows 11 + WSL
 - ROS2版本: Humble

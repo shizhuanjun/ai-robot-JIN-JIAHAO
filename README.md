@@ -1,4 +1,3 @@
-# ai-robot-JIN-JIAHAO
 # AI机器人课程 - 第1周作业
 
 ## 基本信息

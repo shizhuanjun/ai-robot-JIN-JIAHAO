@@ -11,4 +11,4 @@ ros2 run ros2_kitti_publishers kitti_publishers
 </code></pre>
 2.另一个终端运行
 <pre><code>ros2 daemon start
-rviz2</code></pre>
+rqt</code></pre>

@@ -2,7 +2,7 @@
 ## Docker运行ROS2
 效果图<P>
 <img src="https://github.com/shizhuanjun/ai-robot-JIN-JIAHAO/blob/main/week6-04-22/img.png">
-操作步骤<P>
+## 操作步骤
 <pre><code>
 1.安装Docker
 2.安装Docker-ros2

@@ -1,7 +1,7 @@
 # AI机器人第四周作业
-操作机械臂走直线<p>
+## 操作机械臂走直线<p>
 <img src="https://github.com/shizhuanjun/ai-robot-JIN-JIAHAO/blob/main/week4-04-02/img.png"><p>
-源代码：<p>
+## 源代码：<p>
 <pre><code>import pybullet as p
 import pybullet_data as pd
 import time

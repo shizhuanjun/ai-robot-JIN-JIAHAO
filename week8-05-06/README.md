@@ -1,0 +1,14 @@
+# AI机器人第八周作业
+## 在docker环境中使用本地目录运行程序
+## 安装和运行opencv
+效果图<P>
+<img src="https://github.com/shizhuanjun/ai-robot-JIN-JIAHAO/blob/main/week6-04-22/img.png">
+<img src="https://github.com/shizhuanjun/ai-robot-JIN-JIAHAO/blob/main/week6-04-22/img.png">
+## 操作步骤
+<pre><code>
+1.
+cd C:\具体要使用的目录
+docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m  -v “当前目录$(pwd)/:/home/ws” ghcr.io/tiryoh/ros2-desktop-vnc:humble
+2.
+pip install opencv-python opencv-contrib-python
+</code></pre>

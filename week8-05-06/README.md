@@ -1,7 +1,7 @@
 # AI机器人第八周作业
 效果图<P>
-<img src="https://github.com/shizhuanjun/ai-robot-JIN-JIAHAO/blob/main/week8-05-06/img1.png">
-<img src="https://github.com/shizhuanjun/ai-robot-JIN-JIAHAO/blob/main/week8-05-06/img.png">
+![img](img.png)
+![img1](img1.png)
 ## 操作步骤
 <pre>
 1.

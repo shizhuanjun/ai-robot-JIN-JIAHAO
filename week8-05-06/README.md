@@ -1,7 +1,7 @@
 # AI机器人第八周作业
 效果图<P>
-<img src="img.png" alt=img" width="600">
-<img src="img1.png" alt=img1" width="600">
+<img src="img/img.png" alt="img" width="600">
+<img src="img/img1.png" alt="img1" width="600">
 ## 操作步骤
 <pre>
 1.

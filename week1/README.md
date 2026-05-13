@@ -1,8 +1,8 @@
 # AI机器人第一周作业
 ## 效果图<p>
-<img src="截图/openclaw-feishu.png" alt="openclaw-feishu" width="600">
-<img src="截图/openclaw-running.png" alt="openclaw-running" width="600">
-<img src="截图/ros2-turtlesim.png" alt="ros2-turtlesim" width="600">
+<img src="img/openclaw-feishu.png" alt="openclaw-feishu" width="600">
+<img src="img/openclaw-running.png" alt="openclaw-running" width="600">
+<img src="img/ros2-turtlesim.png" alt="ros2-turtlesim" width="600">
 ## 操作步骤<p>
 1.ubnutu安装ROS2<br>
 <pre><code>wget http://fishros.com/install -O fishros && bash fishros;</code></pre>

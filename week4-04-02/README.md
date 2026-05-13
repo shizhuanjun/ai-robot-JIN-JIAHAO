@@ -1,6 +1,6 @@
 # AI机器人第四周作业
 ## 操作机械臂走直线<p>
-<img src="img.png" alt=img" width="600">
+<img src="img/img.png" alt="img" width="600">
 ## 源代码：<p>
 <pre><code>import pybullet as p
 import pybullet_data as pd

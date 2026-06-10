@@ -1,9 +1,8 @@
 # AI机器人第三周作业
-## 课程内容
-<pre>
-1.放倒机器狗
-2.控制小乌龟画正方形
-</pre>
 ## 效果图<p>
-<img src="img/robot_dog.png" alt="robot_dog" width="600">
-<img src="img/turtle_move.png" alt="turtle_move" width="600">
+<img src="img/week2.png" alt="week2" width="600">
+## 操作步骤<p>
+1.让小乌龟前进<br>
+<pre><code>ros2 topic pub /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 1.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"</code></pre>
+2.监听小乌龟位置<br>
+<pre><code>ros2 topic echo /turtle1/pose</code></pre>

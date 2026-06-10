@@ -1,8 +1,17 @@
 # AI机器人第二周作业
 ## 效果图<p>
-<img src="img/week2.png" alt="week2" width="600">
+<img src="img/openclaw-feishu.png" alt="openclaw-feishu" width="600">
+<img src="img/openclaw-running.png" alt="openclaw-running" width="600">
+<img src="img/ros2-turtlesim.png" alt="ros2-turtlesim" width="600">
 ## 操作步骤<p>
-1.让小乌龟前进<br>
-<pre><code>ros2 topic pub /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 1.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"</code></pre>
-2.监听小乌龟位置<br>
-<pre><code>ros2 topic echo /turtle1/pose</code></pre>
+1.ubnutu安装ROS2<br>
+<pre><code>wget http://fishros.com/install -O fishros && bash fishros;</code></pre>
+2.验证安装<br><br>
+&ensp;(1)打开终端<br>
+<pre><code>ros2 run turtlesim turtlesim_node</code></pre>
+&ensp;(2)新开一个终端运行 
+<pre><code>ros2 run turtlesim turtle_teleop_key</code></pre>
+3.安装openclaw<br>
+<pre><code>curl -fsSL https://openclaw.ai/install.sh | bash</code></pre>
+&ensp;启动小龙虾<br>
+<pre><code>openclaw gateway</code></pre>

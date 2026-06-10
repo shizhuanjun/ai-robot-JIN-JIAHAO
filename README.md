@@ -1,6 +1,14 @@
 # AI机器人课程作业
 
-## 课程作业目录
+## 基本信息
+- 姓名: 金嘉豪
+- 学号: 20242043
+
+## 环境信息
+- 操作系统: Windows 11 + WSL
+- ROS2版本: Humble
+
+### 课程作业目录
 - [Week 1：WSL、Ubuntu 与 ROS2 环境配置](week1/)
 - [Week 2：ROS2 交互](week2/)
 - [Week 3：命令行、机器人基础与 Python 仿真](week3/)
@@ -14,10 +22,3 @@
 - [Week11: Docker 进阶与 GitHub Pages 网页部署](week11/)
 - [Week12: 四足机器人入门(操控机器狗走路)](week12/)
 - [Week13: 手机摄像头、ArUco 识别](week13/)
-## 基本信息
-- 姓名: 金嘉豪
-- 学号: 20242043
-
-## 环境信息
-- 操作系统: Windows 11 + WSL
-- ROS2版本: Humble

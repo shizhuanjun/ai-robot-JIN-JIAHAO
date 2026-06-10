@@ -1,6 +1,5 @@
 # AI机器人第十一周作业
-### 课程内容
-Docker 进阶与 GitHub Pages 网页部署
+## Docker 进阶与 GitHub Pages 网页部署
 
 ### 效果图
 <img src="img/img.png" alt="img1" width="600">

@@ -1,8 +1,8 @@
-# AI机器人第十周作业
-## Docker运行ROS2
-效果图<P>
+# AI机器人第八周作业
+## Docker安装与ROS2桌面容器
+### 效果图
 <img src="img/img.png" alt="img" width="600">
-## 操作步骤
+### 操作步骤
 <pre>
 1.安装Docker
 2.安装Docker-ros2

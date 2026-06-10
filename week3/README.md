@@ -1,5 +1,6 @@
 # AI机器人第三周作业
-## 效果图<p>
+## Python编程与机器人控制入门
+### 效果图<p>
 <img src="img/week2.png" alt="week2" width="600">
 ## 操作步骤<p>
 1.让小乌龟前进<br>

@@ -30,4 +30,4 @@
 成果及运行视频见效果图
 
 ## 五. 报告书
-https://github.com/shizhuanjun/ai-robot-JIN-JIAHAO/blob/main/week14/%E6%8A%A5%E5%91%8A%E4%B9%A6.docx
+https://github.com/shizhuanjun/ai-robot-JIN-JIAHAO/blob/main/week14/week14.pdf

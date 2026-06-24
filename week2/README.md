@@ -1,10 +1,11 @@
 # AI机器人第二周作业
 ## ROS2基本命令介绍和通信机制基础
-### 效果图<p>
+### 效果图
 <img src="img/openclaw-feishu.png" alt="openclaw-feishu" width="600">
 <img src="img/openclaw-running.png" alt="openclaw-running" width="600">
 <img src="img/ros2-turtlesim.png" alt="ros2-turtlesim" width="600">
-## 操作步骤<p>
+
+## 操作步骤
 1.ubnutu安装ROS2<br>
 <pre><code>wget http://fishros.com/install -O fishros && bash fishros;</code></pre>
 2.验证安装<br><br>

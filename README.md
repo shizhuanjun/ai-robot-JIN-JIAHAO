@@ -20,5 +20,6 @@
 - [Week 9: 机器人与机器视觉数学基础（网课）](week9/)
 - [Week10: Docker 概念 与 OpenCV实验](week10/)
 - [Week11: Docker 进阶与 GitHub Pages 网页部署](week11/)
-- [Week12: 四足机器人入门(操控机器狗走路)](week12/)
-- [Week13: 手机摄像头、ArUco 识别](week13/)
+- [Week12: 手机摄像头、ArUco 识别](week12/)
+- [Week13: 四足机器人入门(操控机器狗走路)](week13/)
+- [Week14: 期末项目实施 — 手机遥控 + 迷宫探索（小组项目）](week14/)

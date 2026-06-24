@@ -58,7 +58,6 @@ def reset_to_start(self):
     req.y = float(START_POSE["y"])
     req.theta = float(START_POSE["theta"])
     self.teleport_client.call_async(req)
-
     self.current_linear = 0.0
     self.current_angular = 0.0
     self.applied_linear = 0.0
@@ -66,7 +65,6 @@ def reset_to_start(self):
     self.blocked = False
     self.block_reason = "reset_to_start"
     self.goal_reached = False
-
     self.auto_mode = False
     self.explorer.waypoints = None
 </code></pre>

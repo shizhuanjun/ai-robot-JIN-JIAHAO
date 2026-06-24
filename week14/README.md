@@ -48,28 +48,30 @@ python3 turtlesim_web_bridge.py</code></pre>
 </pre></code>
 (2) 重置函数中关闭自动模式 <p>
 为了防止重置位置后小乌龟立刻疯狂飙车，在reset_to_start 函数内将自动模式关闭.
-<pre><code>def reset_to_start(self):
-        if not self.teleport_client.wait_for_service(timeout_sec=0.5):
-            self.get_logger().warning("Teleport service not ready yet.")
-            return
+<pre><code>
+def reset_to_start(self):
+    if not self.teleport_client.wait_for_service(timeout_sec=0.5):
+        self.get_logger().warning("Teleport service not ready yet.")
+        return
 
-        req = TeleportAbsolute.Request()
-        req.x = float(START_POSE["x"])
-        req.y = float(START_POSE["y"])
-        req.theta = float(START_POSE["theta"])
-        self.teleport_client.call_async(req)
+    req = TeleportAbsolute.Request()
+    req.x = float(START_POSE["x"])
+    req.y = float(START_POSE["y"])
+    req.theta = float(START_POSE["theta"])
+    self.teleport_client.call_async(req)
 
-        self.current_linear = 0.0
-        self.current_angular = 0.0
-        self.applied_linear = 0.0
-        self.applied_angular = 0.0
-        self.blocked = False
-        self.block_reason = "reset_to_start"
-        self.goal_reached = False
-        
-        self.auto_mode = False
-        self.explorer.waypoints = None
+    self.current_linear = 0.0
+    self.current_angular = 0.0
+    self.applied_linear = 0.0
+    self.applied_angular = 0.0
+    self.blocked = False
+    self.block_reason = "reset_to_start"
+    self.goal_reached = False
+
+    self.auto_mode = False
+    self.explorer.waypoints = None
 </code></pre>
+
 
 ## 四. 成果
 成果及运行视频见效果图
